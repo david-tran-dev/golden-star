@@ -7,7 +7,6 @@ const Drink = ({
 	category,
 	drink,
 	 ...rest}) => {
-		 console.log(drink);
 	 return (
 		 <li
 		 className={`drink ${className}`}
