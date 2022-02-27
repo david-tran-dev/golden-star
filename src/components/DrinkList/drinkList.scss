@@ -1,0 +1,13 @@
+@use 'src/styles/vars';
+
+.drink-list {
+	
+	h2 {
+		margin: 1rem 0;
+		font-size: 1.5em;
+		text-align: center;
+		color: vars.$color1;
+		font-family: vars.$font1;
+		text-transform: uppercase;
+	}
+}

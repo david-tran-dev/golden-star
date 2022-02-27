@@ -1,0 +1,367 @@
+{
+"BIERES PRESSION":[
+ {
+  "name": "REBELLE SUPER LEGERE",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,5\/4,7",
+  "onSitePrice": "3,0\/5,5"
+ },
+ {
+  "name": "REBELE BLONDE",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,5\/4,7",
+  "onSitePrice": "3,0\/5,5"
+ },
+ {
+  "name": "REBELLE BLANCHE",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,8\/5,3",
+  "onSitePrice": "3,2\/6,0"
+ },
+ {
+  "name": "REBELLE AMBREE",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,8\/5,3",
+  "onSitePrice": "3,2\/6,0"
+ },
+ {
+  "name": "PANACHE",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,5\/4,7",
+  "onSitePrice": "3,0\/5,5"
+ },
+ {
+  "name": "PAILLETTE IPA",
+  "description": null,
+  "volume": "25cl\/50cl",
+  "counterPrice": "2,8\/5,3",
+  "onSitePrice": "3,2\/6,0"
+ },
+ {
+  "name": "CIDRE BRUT",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.3,
+  "onSitePrice": 2.7
+ }
+],
+"BIERES BOUTEILLES":[
+ {
+  "name": "HEINEKEN",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ },
+ {
+  "name": "1664",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ },
+ {
+  "name": "SUPER BOCK",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 2.6,
+  "onSitePrice": 3
+ },
+ {
+  "name": "PELFORTH BRUNE",
+  "description": null,
+  "volume": "33cl",
+  "counterPrice": 4,
+  "onSitePrice": 4.5
+ },
+ {
+  "name": "DESPERADOS",
+  "description": null,
+  "volume": "33cl",
+  "counterPrice": 4,
+  "onSitePrice": 4.5
+ },
+ {
+  "name": "CORONA ",
+  "description": null,
+  "volume": "33cl",
+  "counterPrice": 4,
+  "onSitePrice": 4.5
+ }
+],
+"APERITIFS":[
+ {
+  "name": "MARTINI BLANC OU ROUGE",
+  "description": null,
+  "volume": "6cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ },
+ {
+  "name": "PORTO ROUGE",
+  "description": null,
+  "volume": "6cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ },
+ {
+  "name": "KIR SAUVIGNON",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.6,
+  "onSitePrice": 3.2
+ }
+],
+"VERRRE DE VIN":[
+ {
+  "name": "COTE DU RHONE",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.5,
+  "onSitePrice": 2.8
+ },
+ {
+  "name": "SAUVIGNONS",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.5,
+  "onSitePrice": 2.8
+ },
+ {
+  "name": "COTE DE PROVENCE",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.5,
+  "onSitePrice": 2.8
+ },
+ {
+  "name": "BORDEAUX",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ }
+],
+"CHAMPAGNE":[
+ {
+  "name": "N. FEUILLATTE",
+  "description": null,
+  "volume": "14cl",
+  "counterPrice": 8.9,
+  "onSitePrice": 8.9
+ },
+ {
+  "name": "N. FEUILLATTE",
+  "description": null,
+  "volume": "75cl",
+  "counterPrice": 45,
+  "onSitePrice": 45
+ }
+],
+"BOISSONS CHAUDES":[
+ {
+  "name": "CAFE - DECAFEINE",
+  "description": null,
+  "volume": null,
+  "counterPrice": 1.2,
+  "onSitePrice": 1.6
+ },
+ {
+  "name": "CAFE ALLONGE",
+  "description": null,
+  "volume": null,
+  "counterPrice": 1.4,
+  "onSitePrice": 1.8
+ },
+ {
+  "name": "NOISETTE",
+  "description": null,
+  "volume": null,
+  "counterPrice": 1.4,
+  "onSitePrice": 1.8
+ },
+ {
+  "name": "CREME PETIT",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.6,
+  "onSitePrice": 3
+ },
+ {
+  "name": "CREME GRAND",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ },
+ {
+  "name": "CHOCOLAT PETIT",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.6,
+  "onSitePrice": 3
+ },
+ {
+  "name": "CHOCOLAT GRAND",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ },
+ {
+  "name": "THE - INFUSION",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.2,
+  "onSitePrice": 2.6
+ },
+ {
+  "name": "LAIT",
+  "description": null,
+  "volume": null,
+  "counterPrice": 2.2,
+  "onSitePrice": 2.6
+ }
+],
+"BOISSON FROIDES":[
+ {
+  "name": "COCA-COLA\/COCA ZERO",
+  "description": null,
+  "volume": "33cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ },
+ {
+  "name": "LIMONADE VERRE",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 2,
+  "onSitePrice": 2.4
+ },
+ {
+  "name": "LIPTON ICE PECHE",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ },
+ {
+  "name": "ORANGINA",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ },
+ {
+  "name": "SCHWEPPES",
+  "description": null,
+  "volume": "25cl",
+  "counterPrice": 2.8,
+  "onSitePrice": 3.2
+ },
+ {
+  "name": "PERRIER",
+  "description": null,
+  "volume": "33cl",
+  "counterPrice": 3,
+  "onSitePrice": 3.5
+ }
+],
+"JUS DE FRUITS ":[
+ {
+  "name": "PAGO",
+  "description": "(ORANGE, ABRICOT, ANANAS, PECHE, POMME, ACE, TOMATE, MANGUE, BANANE, MULTI TROPICAL)",
+  "volume": "20cl",
+  "counterPrice": 2.6,
+  "onSitePrice": 3
+ }
+],
+"EAUX":[
+ {
+  "name": "VITTEL",
+  "description": null,
+  "volume": "50cl",
+  "counterPrice": null,
+  "onSitePrice": 3.8
+ },
+ {
+  "name": "VITTEL",
+  "description": null,
+  "volume": "1 L",
+  "counterPrice": null,
+  "onSitePrice": 5.5
+ },
+ {
+  "name": "SAN PEGRINO",
+  "description": null,
+  "volume": "50cl",
+  "counterPrice": null,
+  "onSitePrice": 3.8
+ },
+ {
+  "name": "SAN PEGRINO",
+  "description": null,
+  "volume": "1 L",
+  "counterPrice": null,
+  "onSitePrice": 5.5
+ },
+ {
+  "name": "SUPPLEMENT SIROP ",
+  "description": null,
+  "volume": null,
+  "counterPrice": 0.2,
+  "onSitePrice": 0.2
+ }
+],
+"COCKTAILS A LA BIERE":[
+ {
+  "name": "BLACK VELVET ",
+  "description": "Bière brune et vin pétillant",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ },
+ {
+  "name": "DELIRIUM",
+  "description": "Martini, sirop de citron, bière,",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ },
+ {
+  "name": "BIMARROS",
+  "description": "Sirop de fraise, jus de citron, bière,",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ }
+],
+"COCKTAILS SANS ALCOOLS":[
+ {
+  "name": "VIRGIN MOJITO ",
+  "description": "Feuille de menthe , citron vert, limonade,",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ },
+ {
+  "name": "VIRGIN COLADA",
+  "description": "Ananas, lait de coco,",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ },
+ {
+  "name": "TUTTI FRUTTI",
+  "description": "Cocktails de fruits, passion, abricot, kiwi,",
+  "volume": null,
+  "counterPrice": 6.9,
+  "onSitePrice": 6.9
+ }
+]
+}
