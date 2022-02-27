@@ -11,8 +11,9 @@ const Header = ({className, ...rest}) => {
 		 	>
 				<img src={logo} alt="golden star bar" className='logo'/>
 				<p>
-				19 AVENUE BLAISE PASCAL		<br/>			
-				77420 CHAMPS-SUR-MARNE			
+				19 Avenue Blaise Pascal		<br/>			
+				77420 CHAMPS-SUR-MARNE		<br/>
+				Téléphone: 01 64 73 12 75
 				</p>
 			</div>
 );

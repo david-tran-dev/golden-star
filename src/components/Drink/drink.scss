@@ -8,6 +8,7 @@
 		position: relative;
 		display: flex;
 		font-size: 1.2em;
+		color: vars.$color4;
 		
 		&::after {
 			content: '';

@@ -13,7 +13,6 @@ const DrinkList = ({className, ...rest}) => {
 		}
 		return category
 	})
-	console.log('drinkList', drinkList);
 	 return (
 		 <div
 			className={`drink-list ${className}`}
