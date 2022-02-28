@@ -20,7 +20,7 @@ const Meal = ({
 						<span className='meal-name'>{name && name.toString().toLowerCase()}</span>
 						<span className='meal-volume'>{volume}</span>
 						<span className='meal-counter-price'>{counterPrice ? counterPrice + '€' : ''}</span>
-						<span className='meal-onsite-price'>{onSitePrice ? onSitePrice + '€' : ''}</span>
+						<span className='meal-onsite-price'>{onSitePrice ? onSitePrice : ''}</span>
 					</p>
 					<p>{description && description.toString().toLowerCase()}</p>
 				 </div>
