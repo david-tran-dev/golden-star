@@ -21,7 +21,8 @@ const MealList = ({className, ...rest}) => {
 			className={`meal-list ${className}`}
 			{...rest}
 		>
-			<h2>PLAT SIGNATURE DU « GOLDEN STAR »</h2>
+			<h2>PLAT SIGNATURE DU <br/>
+			 « GOLDEN STAR »</h2>
 			<p>Venez déguster notre plat signature</p>
 			<ul>
 			{mealList.map(({category, content}, index) => (
