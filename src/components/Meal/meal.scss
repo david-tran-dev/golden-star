@@ -1,47 +1,36 @@
 @use 'src/styles/vars';
 
-.drink {
+.meal {
 	margin-top: 1rem;
 
-	& .drink-category {
+	& .meal-category {
 		text-align: left;
 		position: relative;
 		display: flex;
 		font-size: 1.2em;
 		color: vars.$color4;
 		
-	}
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			border-bottom: solid 1px vars.$color1;
+			width: 100%;
+		}
 
-	&-info{
-		display: grid;
-		grid-template-columns: 2fr 1fr 1fr 1fr;
-		font-family: vars.$font2;
-		font-size: 0.8em;
-		font-weight: bold;
-		text-transform: capitalize;
-		margin-bottom: 0.2rem;
-		text-align: right;
-		position: relative;
 
-			&::after {
-				content: '';
-				position: absolute;
-				bottom: -3px;
-				left: 0;
-				border-bottom: solid 1px vars.$color1;
-				width: 100%;
-			}
 	}
 
 	&-description {
-		margin: 0.7rem 0;
+		margin: 0.5rem 0;
 	
-		& .drink-name {
+		& .meal-name {
 			text-align: left;
 		}
 		& p:first-child {
-			display: grid;
-			grid-template-columns: 2fr 1fr 1fr 1fr;
+			display: flex;
+			justify-content: space-between;
 			font-family: vars.$font2;
 			font-size: 0.8em;
 			font-weight: bold;
@@ -61,5 +50,4 @@
 		color: vars.$color1
 	}
 	
-
 }

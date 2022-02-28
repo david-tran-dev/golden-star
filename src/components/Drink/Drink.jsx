@@ -12,11 +12,17 @@ const Drink = ({
 		 className={`drink ${className}`}
 		 {...rest}
 		 >
-			 <h2 className='drink-category'>{category}</h2>
+			 <div className='drink-info'>
+				<span className='drink-category'>{category}</span>
+				<span className='drink-info-volume'>volume</span>
+				<span className='drink-price-at-the-counter'>comptoir</span>
+				<span className='drink-price-on-site'>salle</span>
+			 </div>
 			 {drink.map(({name, description, counterPrice, onSitePrice, volume}, index) => {
 				 return (
 				 <div className='drink-description' key={name + index}>
-					<p>{name && name.toString().toLowerCase()}
+					<p>
+						<span className='drink-name'>{name && name.toString().toLowerCase()}</span>
 						<span className='drink-volume'>{volume}</span>
 						<span className='drink-counter-price'>{counterPrice ? counterPrice + '€' : ''}</span>
 						<span className='drink-onsite-price'>{onSitePrice ? onSitePrice + '€' : ''}</span>

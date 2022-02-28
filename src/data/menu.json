@@ -1,0 +1,192 @@
+{
+	"ENTREES":[
+	 {
+		"name": "RILLETTE DE THON    ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "4.80"
+	 },
+	 {
+		"name": "MINI ASSIETTE DE CHARCUTERIE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "4.80"
+	 },
+	 {
+		"name": "ŒUFS MAYONNAISE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "4.20"
+	 }
+	],
+	"SALADES":[
+	 {
+		"name": "SALADE OCEANE",
+		"description": "Salade, tomate, œuf, saumon, crevette, vinaigrette.",
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "10.50"
+	 },
+	 {
+		"name": "SALADE DE GESIER LARDON ",
+		"description": "Salade, tomate, œuf, gésier, lardon, vinaigrette",
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "8.50"
+	 },
+	 {
+		"name": "SALADE DE CHEVRE ",
+		"description": "Salade, tomate, œuf, chèvre toasté, vinaigrette",
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "8.50"
+	 },
+	 {
+		"name": "SALADE CESAR ",
+		"description": "Salade, œuf, croûtons, parmesan, poulet pané, sauce César",
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "8.50"
+	 }
+	],
+	"PLAT ET SNACK":[
+	 {
+		"name": "BLANQUETTE DE VEAU SERVI AVEC DU RIZ ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "13.90"
+	 },
+	 {
+		"name": "CROQ MONSIEUR",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "6.50"
+	 },
+	 {
+		"name": "HOT DOG",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "6.50"
+	 },
+	 {
+		"name": null,
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": null
+	 },
+	 {
+		"name": "NOS SNACKS SERONT ACCOMPAGNES DE FRITES OU SALADE",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": null
+	 }
+	],
+	"SANDWICH":[
+	 {
+		"name": "JAMBON ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "SAUCCISSON",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "EMMENTAL",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "MIXE (JAMBON, FROMAGE)",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "RILLETTE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "PATE DE CAMPAGNE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "CRUDITE JAMBON ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "5.50"
+	 },
+	 {
+		"name": "CRUDITE POULET",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "5.50"
+	 },
+	 {
+		"name": "CRUDITE THON ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "5.50"
+	 },
+	 {
+		"name": null,
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": null
+	 },
+	 {
+		"name": "BARQUETTE DE FRITE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": "BARQUETTE DE CRUDITE ",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": "3.50"
+	 },
+	 {
+		"name": null,
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": null
+	 },
+	 {
+		"name": "TOUS NOS PLATS SONT A DEGUSTER SUR PLACE OU A EMPORTER",
+		"description": null,
+		"volume": null,
+		"counterPrice": null,
+		"onSitePrice": null
+	 }
+	]
+	}

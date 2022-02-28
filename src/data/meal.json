@@ -1,0 +1,82 @@
+{
+	"LA POUTINE": [
+
+	{
+	 "name": "Frite, sauce ",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "4.00€"
+	},
+	{
+	 "name": "Nous vous proposons agrémenter votre Poutine en sélectionnant des accompagnement aux choix :",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": null
+	},
+	{
+	 "name": "Fromage (cheddar, mozzarella, chèvre, bleu, gouda) ",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "1.30€"
+	},
+	{
+	 "name": "Effiloché de canard",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "2.50€"
+	},
+	{
+	 "name": "Saumon fumée ",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "2.50€"
+	},
+	{
+	 "name": "Bacon",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "1.50€"
+	},
+	{
+	 "name": "Hot dog",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "1.50€"
+	},
+	{
+	 "name": "Poulet",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "1.50€"
+	},
+	{
+	 "name": "Oignon caraméliser au sirop d’érable",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "0.80€"
+	},
+	{
+	 "name": "Champignon cuit ",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "0.80€"
+	},
+	{
+	 "name": "Poivron cuit ",
+	 "description": null,
+	 "volume": null,
+	 "counterPrice": null,
+	 "onSitePrice": "0.80€"
+	}
+]
+}
