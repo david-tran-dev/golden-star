@@ -53,7 +53,7 @@ Drink.propTypes = {
 		category: PropTypes.string.isRequired,
 		drink: PropTypes.arrayOf(
 			PropTypes.shape({
-				name: PropTypes.string.isRequired,
+				name: PropTypes.string,
 				description: PropTypes.string,
 				volume: PropTypes.string
 			})
@@ -62,6 +62,7 @@ Drink.propTypes = {
 Drink.defaultProps = {
 		className: '',
 		description: '',
-		volume: ''	
+		volume: '',
+		name: ''	
 };
 export default React.memo(Drink);
