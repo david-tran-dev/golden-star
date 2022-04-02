@@ -1,10 +1,10 @@
 import React from 'react';
 import './drinkList.scss';
-import data from '../../data/data.json';
+import drink from '../../data/drink.json';
 import Drink from '../Drink/Drink';
 
 const DrinkList = ({className, ...rest}) => {
-	const drinkList = Object.entries(data).map((drinkCategory) => {
+	const drinkList = Object.entries(drink).map((drinkCategory) => {
 		const categorySlice = drinkCategory.slice(0, 1);
 		const drinkSlice = drinkCategory.slice(1);
 		const category= {

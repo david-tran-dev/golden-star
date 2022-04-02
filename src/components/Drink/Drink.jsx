@@ -21,13 +21,22 @@ const Drink = ({
 			 {drink.map(({name, description, counterPrice, onSitePrice, volume}, index) => {
 				 return (
 				 <div className='drink-description' key={name + index}>
-					<p>
-						<span className='drink-name'>{name && name.toString().toLowerCase()}</span>
-						<span className='drink-volume'>{volume}</span>
-						<span className='drink-counter-price'>{counterPrice ? counterPrice + '€' : ''}</span>
-						<span className='drink-onsite-price'>{onSitePrice ? onSitePrice + '€' : ''}</span>
-					</p>
-					<p>{description && description.toString().toLowerCase()}</p>
+					 {(description === null && counterPrice === null && onSitePrice === null && volume === null)
+					  ?
+					 <p id={'drink-resume'}>{name && name.toString().toLowerCase()}</p> 
+						:
+						(
+							<>
+						<p>
+							<span className='drink-name'>{name && name.toString().toLowerCase()}</span>
+							<span className='drink-volume'>{volume}</span>
+							<span className='drink-counter-price'>{counterPrice ? counterPrice + '€' : ''}</span>
+							<span className='drink-onsite-price'>{onSitePrice ? onSitePrice + '€' : ''}</span>
+						</p>
+						<p>{description && description.toString().toLowerCase()}</p>
+							</>
+						)
+					 }
 				 </div>
 
 			 	)

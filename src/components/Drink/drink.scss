@@ -7,7 +7,7 @@
 		text-align: left;
 		position: relative;
 		display: flex;
-		font-size: 1.15em;
+		font-size: 1.2em;
 		color: vars.$color4;
 		
 	}
@@ -55,8 +55,15 @@
 			font-size: 0.8em;
 			font-style: italic;
 			color: vars.$color2;
+			display: grid;
+			grid-template-columns: 2fr 1fr 1fr 1fr;
 		}
 
+		& #drink-resume {
+			grid-template-columns: 1fr;
+			text-align: left;
+			margin-bottom: 1rem;
+		}
 	}
 	&-counter-price, &-onsite-price, &-volume {
 		color: vars.$color1
