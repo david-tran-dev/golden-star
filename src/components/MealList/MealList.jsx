@@ -5,7 +5,6 @@ import meal from '../../data/meal.json'
 import Meal from '../Meal/Meal';
 
 const MealList = ({className, ...rest}) => {
-	console.log(meal);
 	const mealList = Object.entries(meal).map((item) => {
 		const categorySlice = item.slice(0, 1);
 		const contentSlice = item.slice(1);
@@ -15,7 +14,6 @@ const MealList = ({className, ...rest}) => {
 		}
 		return category
 	})
-	console.log('mealList', mealList);
 	 return (
 		<div
 			className={`meal-list ${className}`}
