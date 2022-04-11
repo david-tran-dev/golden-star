@@ -1,6 +1,6 @@
 ## Creation of a drink menu for a friend's bar.
 
-![site url]('./../src/assets/img/qr-code-golden-star.png)
+![site url]('./../Qr-code/qr-code.png)
 
 ## This project was created by Create-react-app.
 
