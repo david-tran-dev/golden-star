@@ -1,36 +1,58 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
+import PropTypes from 'prop-types';
 import './menuList.scss';
-import menu from '../../data/menu.json';
 import Category from '../Category/Category';
 
-const MenuList = ({className, ...rest}) => {
-	const menuList = Object.entries(menu).map((item) => {
-		const categorySlice = item.slice(0, 1);
-		const contentSlice = item.slice(1);
-		const category= {
-			category: categorySlice[0],
-			content: contentSlice[0]
-		}
-		return category
-	})
-	 return (
-		 <div
-			className={`menu-list ${className}`}
-			{...rest}
-		 >
-			<h2>Menu</h2>
-			<ul>
-			{menuList.map(({category, content}, item) => (
-				<Category 
-					key={item + category} 
-					content={content} 
-					category={category}/>
-			))
-			}			
-			</ul>
-			</div>
-);
+function MenuList({ className, menuList, ...rest }) {
+  const menu = menuList.categories.data.map((item) => {
+    const category = item.attributes.name;
+    const content = item.attributes.dishes.data.map((dish) => {
+      const dishes = {
+        name: dish.attributes.name,
+        description: dish.attributes.description,
+        onSitePrice: dish.attributes.on_site_price,
+      };
+      return dishes;
+    });
+    const data = {
+      category,
+      content,
+    };
+    return data;
+  });
+  return (
+
+    <div
+      className={`menu-list ${className}`}
+      {...rest}
+    >
+      {menuList && (
+      <>
+        <h2>{menuList.name}</h2>
+        <ul>
+          {menu.map(({ category, content }, item) => (
+            <Category
+              key={item + category}
+              content={content}
+              category={category}
+            />
+          ))}
+        </ul>
+      </>
+
+      )}
+    </div>
+  );
+}
+
+MenuList.propTypes = {
+  className: PropTypes.string,
+  menuList: PropTypes.object.isRequired,
 };
 
+MenuList.defaultProps = {
+  className: '',
+};
 
 export default React.memo(MenuList);
