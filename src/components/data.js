@@ -29,7 +29,8 @@ const requestData = async () => {
   try {
     const response = await apiAxios(`/sections?${query}`);
     return response;
-  } catch (err) {
+  }
+  catch (err) {
     console.log(err);
     return err.response;
   }

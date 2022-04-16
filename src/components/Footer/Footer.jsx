@@ -2,23 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './footer.scss';
 
-const Footer = ({className, ...rest}) => {
-	 return (
-		 <div
-			className={`footer ${className}`}
-			{...rest}
-		 >
-			<p>
-				&copy; Copyright Golden Star - 2022
-			</p>
-			</div>
-);
-};
+function Footer({ className, ...rest }) {
+  return (
+    <div
+      className={`footer ${className}`}
+      {...rest}
+    >
+      <p>
+        &copy; Copyright Golden Star - 2022
+      </p>
+    </div>
+  );
+}
 
 Footer.propTypes = {
-		className: PropTypes.string,
+  className: PropTypes.string,
 };
 Footer.defaultProps = {
-		className: '',
+  className: '',
 };
 export default React.memo(Footer);

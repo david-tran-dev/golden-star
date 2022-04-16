@@ -25,7 +25,8 @@ function App() {
       setMenuList(response.data.data[0].attributes);
       setMealList(response.data.data[1].attributes);
       setDrinksList(response.data.data[2].attributes);
-    } else {
+    }
+    else {
       console.log(response.data.error.message);
       navigate('/error');
     }
