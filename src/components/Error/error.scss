@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.error {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	&__title {
+		font-size: 2em;
+	}
+	&__homepage-link {
+		margin-top: 3rem;
+	}
+}

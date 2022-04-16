@@ -11,14 +11,19 @@ const query = qs.stringify({
   populate: {
     categories: {
       sort: ['id:asc'],
-      populate: ['dishes', 'drinks'],
+      populate: {
+        dishes: {
+          sort: ['id:asc'],
+        },
+        drinks: {
+          sort: ['id:asc'],
+        },
+      },
     },
   },
 }, {
   encodeValuesOnly: true,
 });
-
-console.log('query: ', query);
 
 const requestData = async () => {
   try {

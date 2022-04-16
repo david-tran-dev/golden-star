@@ -15,7 +15,7 @@ function Loading({ className }) {
         alignItems: 'center',
       }}
     >
-      <ThreeDots type="ThreeDots" color="#2BAD60" height="100" width="100" />
+      <ThreeDots type="ThreeDots" color="#d88c13" height="100" width="100" />
     </div>
   );
 }

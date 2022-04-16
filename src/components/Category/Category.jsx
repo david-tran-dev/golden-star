@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import PropTypes from 'prop-types';
 import './category.scss';
@@ -46,8 +47,6 @@ Category.propTypes = {
 };
 Category.defaultProps = {
   className: '',
-  description: '',
-  volume: '',
-  name: '',
+  content: {},
 };
 export default React.memo(Category);

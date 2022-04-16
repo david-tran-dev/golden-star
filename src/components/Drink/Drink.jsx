@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import PropTypes from 'prop-types';
 import './drink.scss';
@@ -5,7 +6,7 @@ import './drink.scss';
 function Drink({
   className,
   category,
-  drink,
+  content,
   ...rest
 }) {
   return (
@@ -19,7 +20,7 @@ function Drink({
         <span className="drink-price-at-the-counter">comptoir</span>
         <span className="drink-price-on-site">salle</span>
       </div>
-      {drink.map(({
+      {content.map(({
         name, description, counterPrice, onSitePrice, volume,
       }, index) => (
         <div className="drink-description" key={name + index}>
@@ -48,7 +49,7 @@ function Drink({
 Drink.propTypes = {
   className: PropTypes.string,
   category: PropTypes.string.isRequired,
-  drink: PropTypes.arrayOf(
+  content: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
       description: PropTypes.string,
@@ -58,8 +59,6 @@ Drink.propTypes = {
 };
 Drink.defaultProps = {
   className: '',
-  description: '',
-  volume: '',
-  name: '',
+  content: {},
 };
 export default React.memo(Drink);

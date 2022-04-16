@@ -5,7 +5,6 @@ import './menuList.scss';
 import Category from '../Category/Category';
 
 function MenuList({ className, menuList, ...rest }) {
-  console.log(menuList);
   const menu = menuList.categories.data.map((item) => {
     const category = item.attributes.name;
     const content = item.attributes.dishes.data.map((dish) => {
@@ -49,9 +48,7 @@ function MenuList({ className, menuList, ...rest }) {
 
 MenuList.propTypes = {
   className: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  menuList: PropTypes.shape.isRequired,
-
+  menuList: PropTypes.object.isRequired,
 };
 
 MenuList.defaultProps = {
