@@ -7,7 +7,7 @@ import Loading from '../Loading/Loading';
 import requestData from '../data';
 import './App.scss';
 import Menu from '../Pages/Menu/Menu';
-import Error from '../Error/Error';
+import Error from '../Pages/Error/Error';
 
 function App() {
   const [menuList, setMenuList] = useState({});
