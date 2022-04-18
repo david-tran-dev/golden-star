@@ -2,8 +2,8 @@
 
 ## Création d'un menu avec gestion de contenu(CMS).
 
--Création d'une branche sans CMS car à la base, le projet était sans gestion de contenu.
--Utilisation du CMS Strapi hébergé sur Heroku avec PostgreSQL
+-Création d'une branche sans CMS car à la base, le projet était sans gestion de contenu.  
+-Utilisation du CMS Strapi hébergé sur Heroku avec PostgreSQL  
 -MCD, MLD: voir [projet back](https://github.com/david-tran-dev/golden-star-back)
 
 ## Ce projet a été créé avec "Create-react-app".
